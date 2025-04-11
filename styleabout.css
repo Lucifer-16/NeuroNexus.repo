@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background: #202020;
+    color: white;
+    padding: 10px 20px;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {
+    margin-right: 20px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+header .search-bar input {
+    padding: 5px;
+    margin-right: 5px;
+}
+header .search-bar button {
+    padding: 5px 10px;
+    background: #e50914;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.about-content {
+    flex: 1;
+}
+.about-content h1 {
+    font-size: 2.5em;
+    color: #e50914;
+}
+.about-content p {
+    margin-bottom: 10px;
+}
+.about-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+/* Our Values Section */
+.values {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+.values h2 {
+    margin-bottom: 20px;
+}
+.values .value {
+    margin: 15px;
+}
+.values .value i {
+    font-size: 2em;
+    color: #e50914;
+}
+.values .value h3 {
+    margin: 10px 0;
+}
+
+/* Call to Action Section */
+.cta {
+    text-align: center;
+    background: #e50914;
+    color: white;
+    padding: 20px;
+}
+.cta button {
+    background: white;
+    color: #e50914;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.cta button a {
+    text-decoration: none;
+    color: #e50914;
+}
+
+/* Footer Styles */
+footer {
+    background: #202020;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer .footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+footer .footer-links ul li {
+    display: inline;
+    margin-right: 15px;
+}
+footer .footer-links ul li a {
+    color: white;
+    text-decoration: none;
+}

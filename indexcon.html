@@ -1,36 +1,69 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Contact Us - NeuroNexus</title>
     <link rel="stylesheet" href="stylecon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
 
-<div class="contact-container">
-    <div class="contact-info">
-        <h2>Get in Touch</h2>
-        <p>For any inquiries, please don't hesitate to contact us.</p>
-        <ul>
-            <li><strong>Address:</strong> 123 Main St, Anytown, USA</li>
-            <li><strong>Phone:</strong> +1 123 456 7890</li>
-            <li><strong>Email:</strong> <a href="mailto:info@example.com">info@example.com</a></li>
-        </ul>
-    </div>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="indexhome.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="indexcontact.html">Contact</a></li>
+                <li><a href="indexprofile.html">Profile</a></li>
+                <li><a href="indexlogin.html">Login</a></li>
+                <li><a href="indexsignup.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="contact-form">
-        <h2>Send Us a Message</h2>
-        <form action="#" method="post">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <input type="text" name="subject" placeholder="Subject" required>
-            <textarea name="message" placeholder="Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </div>
-</div>
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <h1>Contact Us</h1>
+            <p>Have questions? Reach out to us and we’ll get back to you as soon as possible.</p>
+
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject">
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><i class="fas fa-envelope"></i> support@neuronexus.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (800) 123-4567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Innovation Drive, Tech City, USA</p>
+
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 </html>
