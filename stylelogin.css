@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/WhatsApp\ Image\ 2025-04-11\ at\ 7.58.55\ PM.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    width: 500px;
+    height: 500px;
+
+}
+
+.logo img{
+
+    width: 300px;
+    height: 200px;
+    margin-left: 600px;
+    margin-right: 400px;
+    border-radius: 100px;
+  }
+
+.container {
+    margin-left: 600px;
+    margin-right: 800px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-box {
+
+    width: 350px;
+    margin: 0 auto;
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input-group input {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #eceef5;
+}
+#login-form p a{
+    text-decoration: none;
+    color: #355ffa;
+}
+
+a:hover {
+    color: #3e8e41;
+}
